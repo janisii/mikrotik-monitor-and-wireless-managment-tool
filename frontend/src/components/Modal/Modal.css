@@ -1,0 +1,25 @@
+.modal-content {
+  overflow: visible;
+}
+
+.modal-content .box {
+  padding-right: 0;
+}
+
+.modal-content .inner-scroll {
+  overflow: auto;
+  max-height: calc(100vh - 100px);
+  padding-right: 1.25rem;
+}
+
+.modal-content .inner-scroll h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .modal-content .inner-scroll {
+    max-height: calc(100vh - 160px);
+  }
+}

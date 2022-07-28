@@ -1,0 +1,98 @@
+.title-desc {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 0.35rem;
+}
+.device-status {
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.device-status .icon.info,
+.device-status .icon.wifi,
+.device-status .icon.network {
+  border-radius: 50%;
+  padding: 1.25rem;
+  margin-right: 1rem;
+}
+
+.device-status .icon.wifi {
+  position: relative;
+}
+
+.device-status .icon.wifi .active-connections {
+  position: absolute;
+  top: -5px;
+  right: -9px;
+  background: hsl(348, 100%, 61%);
+  color: #fff;
+  display: flex;
+  padding: 5px;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  font-size: 11px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.device-status .icon i {
+  font-size: 1.25rem;
+}
+
+.device-status .icon.is-down {
+  background: #ddd;
+  color: #aaa;
+}
+
+.device-status .icon.is-on {
+  background: hsl(171, 100%, 41%);
+  color: #fff;
+}
+.device-status .icon.network.is-down {
+  background: hsl(348, 100%, 61%);
+  color: #fff;
+}
+
+.device-status .icon.info {
+  background: hsl(204, 86%, 53%);
+  color: #fff;
+  margin-right: 0;
+}
+
+.device-status__active-connections {
+  align-items: center;
+}
+.device-status__active-connections .title-desc {
+  margin-bottom: 0;
+}
+.device-status__active-connections .count {
+  font-size: 1.5rem;
+  padding: 0 0 0 0.5rem;
+}
+
+.device .on-off-switch-wrap {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.device .time-left-wrap {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.device .time-left-wrap i {
+  color: #3273dc;
+  margin-left: 3px;
+}
+
+.device .info {
+  flex-grow: 1;
+}
+
+.device .switch {
+  align-self: flex-end;
+}

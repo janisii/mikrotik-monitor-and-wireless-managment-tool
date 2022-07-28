@@ -1,0 +1,123 @@
+#navbar * {
+  outline: none !important;
+}
+
+#navbar .navbar-burger {
+  background-color: #3273dc;
+  border: none;
+}
+
+#navbar .navbar-burger.is-active,
+#navbar .navbar-burger:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+#navbar .navbar-item.mob.search {
+  display: none;
+}
+
+#navbar .navbar-brand {
+  align-items: center;
+}
+
+#navbar .navbar-brand .navbar-title {
+  display: none;
+}
+
+#navbar .navbar-start button.navbar-item.des.search {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#navbar .navbar-start .navbar-item.des.search:hover {
+  background-color: #2366d1;
+  border-radius: 4px;
+}
+
+#navbar span.badge.des {
+  position: relative;
+  top: -10px;
+  right: 8px;
+  background: #2253ac;
+  color: #fff;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  font-size: 11px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar span.badge.mob {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: hsl(348, 100%, 61%);
+  color: #fff;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  font-size: 11px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar .navbar-item.is-badge .mob {
+  display: none;
+}
+
+@media only screen and (max-width: 1087px) {
+  #navbar .navbar-item img {
+    max-height: 1.25rem;
+  }
+  #navbar .navbar-brand .navbar-title {
+    display: inline-block;
+    margin-left: 0.75rem;
+    font-weight: 500;
+    font-size: 1.15rem;
+  }
+  #navbar .navbar-burger {
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-left: 4px;
+  }
+  #navbar .navbar-item.mob.search {
+    display: block;
+    margin-left: auto;
+    padding: 0;
+  }
+  #navbar .navbar-item.mob.search button {
+    cursor: pointer;
+    display: block;
+    height: 3.25rem;
+    position: relative;
+    width: 3.25rem;
+    background-color: #3273dc;
+    border: none;
+    color: #fff;
+    font-size: 0.85rem;
+  }
+  #navbar .navbar-item.mob.search button.is-active,
+  #navbar .navbar-item.mob.search button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  #navbar .navbar-start .navbar-item.des.search {
+    display: none;
+  }
+  #navbar .navbar-item.is-badge .mob {
+    display: flex;
+  }
+  #navbar .navbar-start .badge.des {
+    display: none;
+  }
+}

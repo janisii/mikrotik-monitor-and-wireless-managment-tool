@@ -1,0 +1,4 @@
+/ssl/
+/node_modules/
+.env
+start.sh
