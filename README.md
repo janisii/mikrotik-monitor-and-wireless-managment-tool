@@ -13,7 +13,7 @@ NodeJS application (REST API) to manage mikrotik devices with routeros-client pa
 
 Frontend is built with Create React App script and Bulma CSS framework.
 
-- User Interface to control the devices using NodeJS REST API endpoints.
+- User Interface to control mikrotik devices using NodeJS REST API endpoints.
 
 ### Disclaimer
 
