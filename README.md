@@ -1,5 +1,7 @@
 ## Mikrotik Device Monitoring and Wireless management Tool
 
+Simple tool to manage mikrotik devices.
+
 ### Server
 
 NodeJS application (REST API) to manage mikrotik devices with routeros-client package.
